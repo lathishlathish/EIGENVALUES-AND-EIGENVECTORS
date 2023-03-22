@@ -23,6 +23,7 @@ import numpy as np
 A=np.array([[4,2],[2,4]])
 values,vectors=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}". format(values,vectors))
+```
 
 ## Output:
 ![image](https://user-images.githubusercontent.com/120359170/226881901-40846991-481d-4f2b-858a-d13d196daa69.png)
